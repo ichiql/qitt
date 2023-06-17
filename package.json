@@ -1,0 +1,26 @@
+{
+  "name": "qitt",
+  "version": "0.0.0",
+  "description": "tiny function library :)",
+  "repository": "https://github.com/ichiql/qitt",
+  "author": "Yamashita, Shinichi",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "p:config": "pnpm -F @qitt/config",
+    "p:numberize": "pnpm -F @qitt/numberize"
+  },
+  "engines": {
+    "pnpm": ">=8",
+    "node": ">=18"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@lerna-lite/cli": "^2.4.1",
+    "@lerna-lite/publish": "^2.4.1",
+    "turbo": "^1.10.3"
+  }
+}
