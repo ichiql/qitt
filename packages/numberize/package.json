@@ -1,0 +1,48 @@
+{
+  "name": "@qitt/numberize",
+  "version": "0.1.0",
+  "description": "any to number",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ichiql/qitt.git",
+    "directory": "packages/numberize"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./distindex.mjs",
+      "require": "./distindex.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "prettier": "@qitt/config/prettier",
+  "scripts": {
+    "test": "jest",
+    "build": "vite build && tsc"
+  },
+  "keywords": [
+    "qitt",
+    "@qitt",
+    "toNumber",
+    "parseInt",
+    "BitInt"
+  ],
+  "author": "Yamashita, Shinichi",
+  "license": "MIT",
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "@qitt/config": "workspace:^",
+    "@types/jest": "^29.5.2",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.9"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "@qitt/config",
+  "version": "0.1.0",
+  "author": "Yamashita, Shinichi",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichiql/qitt.git",
+    "directory": "packages/config"
+  },
+  "license": "MIT",
+  "description": "config file for eslint, prettier, tsconfig...",
+  "bugs": {
+    "url": "https://github.com/ichiql/qitt/issues"
+  },
+  "homepage": "https://github.com/ichiql/qitt#readme",
+  "keywords": [
+    "qitt",
+    "@qitt",
+    "eslint",
+    "prettier",
+    "typescript",
+    "config"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=5",
+    "@typescript-eslint/parser": ">=5",
+    "eslint": ">=8",
+    "eslint-config-prettier": ">=8",
+    "eslint-plugin-import": ">=2.27",
+    "eslint-plugin-jsx-a11y": ">=6.7",
+    "eslint-plugin-react": ">=7.32",
+    "prettier": ">=2.2",
+    "prettier-plugin-tailwindcss": ">= 0.2",
+    "typescript": ">=5"
+  },
+  "dependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.0",
+    "eslint-plugin-react": "^7.32.0",
+    "prettier": "^2.2.0",
+    "prettier-plugin-tailwindcss": "^0.2.0",
+    "typescript": "^5.0.4"
+  }
+}
