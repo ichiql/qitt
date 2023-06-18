@@ -1,6 +1,6 @@
 {
   "name": "@qitt/delay",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "any to number",
   "publishConfig": {
     "access": "public"
