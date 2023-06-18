@@ -1,5 +1,5 @@
 {
-  "name": "@qitt/numberize",
+  "name": "@qitt/delay",
   "version": "0.1.2",
   "description": "any to number",
   "publishConfig": {
@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ichiql/qitt.git",
-    "directory": "packages/numberize"
+    "directory": "packages/delay"
   },
   "type": "module",
   "main": "./dist/index.cjs",
@@ -32,9 +32,9 @@
   "keywords": [
     "qitt",
     "@qitt",
-    "toNumber",
-    "parseInt",
-    "BitInt"
+    "delay",
+    "abortdelay",
+    "abortcontroller"
   ],
   "author": "Yamashita, Shinichi",
   "license": "MIT",

@@ -16,8 +16,20 @@ eslint, prettier, tsconfigのベース
 
 base config file for eslint, prettier, tsconfig
 
+### [error](https://npmjs.com/package/@qitt/error)
+
+あったらうれしいエラークラス(ほぼextends Error)
+
+Error class that would be nice to have (almost extends Error)
+
 ### [numberize](https://npmjs.com/package/@qitt/numberize)
 
 stringやbigintをnumberに変換
 
 string, bigint to number
+
+### [delay](https://npmjs.com/package/@qitt/delay)
+
+指定秒数(ミリ秒数)待つ
+
+Wait for specified number of seconds (milliseconds)

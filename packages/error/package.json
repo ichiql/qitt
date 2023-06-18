@@ -25,6 +25,7 @@
   "prettier": "@qitt/config/prettier.cjs",
   "scripts": {
     "test": "jest",
+    "lint": "eslint ./src",
     "build": "vite build && tsc",
     "prepublish": "pnpm build"
   },
