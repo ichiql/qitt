@@ -21,6 +21,7 @@
   "devDependencies": {
     "@lerna-lite/cli": "^2.4.1",
     "@lerna-lite/publish": "^2.4.1",
+    "npkill": "^0.11.3",
     "turbo": "^1.10.3"
   }
 }

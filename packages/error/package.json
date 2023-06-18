@@ -1,5 +1,5 @@
 {
-  "name": "@qitt/numberize",
+  "name": "@qitt/error",
   "version": "0.1.1",
   "description": "any to number",
   "publishConfig": {
@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ichiql/qitt.git",
-    "directory": "packages/numberize"
+    "directory": "packages/error"
   },
   "type": "module",
   "main": "./dist/index.cjs",
@@ -31,9 +31,9 @@
   "keywords": [
     "qitt",
     "@qitt",
-    "toNumber",
-    "parseInt",
-    "BitInt"
+    "error",
+    "aborterror",
+    "abortcontroller"
   ],
   "author": "Yamashita, Shinichi",
   "license": "MIT",
