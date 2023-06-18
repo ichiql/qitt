@@ -17,6 +17,5 @@
     "strictNullChecks": true,
     "noImplicitReturns": true
   },
-  "include": ["_.ts"],
-  "exclude": ["node_modules", "**/*.test.ts"]
+  "include": ["_.ts"]
 }

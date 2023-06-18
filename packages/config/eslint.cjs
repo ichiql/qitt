@@ -1,7 +1,7 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   root: true,
-  ignorePatterns: ['**/dist/', '**/node_modules/'],
+  ignorePatterns: ['**/dist/', '**/node_modules/', '.eslintrc.cjs'],
   env: { node: true },
   extends: [
     'eslint:recommended',
@@ -11,9 +11,6 @@ module.exports = {
   ],
   parser: '@typescript-eslint/parser',
   plugins: ['import', '@typescript-eslint'],
-  parserOptions: {
-    project: './tsconfig.json',
-  },
   rules: {
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     '@typescript-eslint/no-unused-expressions': 'off',
@@ -27,4 +24,4 @@ module.exports = {
       },
     ],
   },
-};
+}

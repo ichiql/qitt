@@ -17,12 +17,13 @@ config file for eslint, prettier, tsconfig...
 .eslintrc.js
 
 ```js:.eslintrc.js
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
-  root: true,
-  extends: [
-    '@qitt/config/eslint',
-  ],
-};
+  ...require('@qitt/config/eslint.cjs'),
+  parserOptions: {
+    project: './tsconfig.json',
+  },
+}
 ```
 
 package.json
@@ -43,5 +44,6 @@ tsconfig.json
   "compilerOptions": {
     ~~~
   },
+  "include": ["~~~"]
 }
 ```

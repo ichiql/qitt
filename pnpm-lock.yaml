@@ -21,6 +21,24 @@ importers:
         specifier: ^1.10.3
         version: 1.10.3
 
+  packages/bigintize:
+    devDependencies:
+      '@jest/globals':
+        specifier: ^29.5.0
+        version: 29.5.0
+      '@qitt/config':
+        specifier: workspace:^
+        version: link:../config
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@20.3.1)(ts-node@10.9.1)
+      typescript:
+        specifier: ^5.0.4
+        version: 5.0.4
+      vite:
+        specifier: ^4.3.9
+        version: 4.3.9(@types/node@20.3.1)
+
   packages/config:
     devDependencies:
       '@jest/globals':

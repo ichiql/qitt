@@ -28,6 +28,12 @@ stringやbigintをnumberに変換
 
 string, bigint to number
 
+### [bigintize](https://npmjs.com/package/@qitt/bigintize)
+
+stringやnumberをbigintに変換
+
+Convert string or number to bigint
+
 ### [delay](https://npmjs.com/package/@qitt/delay)
 
 指定秒数(ミリ秒数)待つ
