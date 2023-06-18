@@ -1,6 +1,6 @@
 {
   "name": "@qitt/error",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "general purpose error class",
   "publishConfig": {
     "access": "public"
