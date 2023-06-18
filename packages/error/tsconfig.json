@@ -1,9 +1,4 @@
 {
   "extends": "@qitt/config/tsconfig",
-  "compilerOptions": {
-    "emitDeclarationOnly": true,
-    "declaration": true,
-    "declarationDir": "./dist"
-  },
-  "include": ["src/**/*", "**/*.test.ts"]
+  "include": ["src/**/*.ts"]
 }

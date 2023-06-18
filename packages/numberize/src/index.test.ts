@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals'
-import numberize from '../src'
+import numberize from '.'
 
 describe('numberize', () => {
   test('parse number', () => {
