@@ -1,4 +1,4 @@
-# qitt
+# QITT
 
 qitt = kit :)
 
