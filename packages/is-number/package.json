@@ -1,14 +1,14 @@
 {
-  "name": "@qitt/error",
-  "version": "0.1.5",
-  "description": "general purpose error class",
+  "name": "@qitt/is-number",
+  "version": "0.1.6",
+  "description": "determine if it is a number",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ichiql/qitt.git",
-    "directory": "packages/error"
+    "directory": "packages/is-number"
   },
   "type": "module",
   "main": "./dist/index.cjs",
@@ -32,9 +32,8 @@
   "keywords": [
     "qitt",
     "@qitt",
-    "error",
-    "aborterror",
-    "abortcontroller"
+    "is-number",
+    "isNumber"
   ],
   "author": "Yamashita, Shinichi",
   "license": "MIT",
@@ -43,6 +42,7 @@
     "@qitt/config": "workspace:^",
     "jest": "^29.5.0",
     "typescript": "^5.0.4",
-    "vite": "^4.3.9"
+    "vite": "^4.3.9",
+    "zod": "^3.21.4"
   }
 }

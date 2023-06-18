@@ -126,6 +126,27 @@ importers:
         specifier: ^4.3.9
         version: 4.3.9(@types/node@20.3.1)
 
+  packages/is-number:
+    devDependencies:
+      '@jest/globals':
+        specifier: ^29.5.0
+        version: 29.5.0
+      '@qitt/config':
+        specifier: workspace:^
+        version: link:../config
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@20.3.1)(ts-node@10.9.1)
+      typescript:
+        specifier: ^5.0.4
+        version: 5.0.4
+      vite:
+        specifier: ^4.3.9
+        version: 4.3.9(@types/node@20.3.1)
+      zod:
+        specifier: ^3.21.4
+        version: 3.21.4
+
   packages/is-string:
     devDependencies:
       '@jest/globals':

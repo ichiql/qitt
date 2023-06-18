@@ -51,3 +51,9 @@ String something (bigint supported JSON.stringify)
 文字列かどうかを判定する
 
 Determine if it is a string
+
+### [is-number](https://npmjs.com/package/@qitt/is-number)
+
+数値かどうかを判定する
+
+Determine if it is a number

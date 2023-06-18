@@ -1,0 +1,4 @@
+{
+  "extends": "@qitt/config/tsconfig",
+  "include": ["src/**/*.ts"]
+}
