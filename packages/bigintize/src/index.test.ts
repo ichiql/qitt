@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals'
-import bigintize from '../src'
+import bigintize from '.'
 
 describe('bigintize', () => {
   test('parse number', () => {

@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals'
-import { AbortError } from '../src'
+import { AbortError } from '.'
 
 describe('AbortError', () => {
   test('error name', () => {

@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals'
-import { delay } from '../src'
+import { delay } from '.'
 
 describe('Delay', () => {
   test('error name', async () => {

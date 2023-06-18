@@ -39,3 +39,9 @@ Convert string or number to bigint
 指定秒数(ミリ秒数)待つ
 
 Wait for specified number of seconds (milliseconds)
+
+### [stringify](https://npmjs.com/package/@qitt/stringify)
+
+なにかを文字列化する(bigint supported JSON.stringify)
+
+String something (bigint supported JSON.stringify)
