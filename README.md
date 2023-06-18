@@ -48,12 +48,12 @@ String something (bigint supported JSON.stringify)
 
 ### [is-string](https://npmjs.com/package/@qitt/is-string)
 
-文字列かどうかを判定する
+文字列かどうかを判定する(use zod)
 
-Determine if it is a string
+Determine if it is a string(use zod)
 
 ### [is-number](https://npmjs.com/package/@qitt/is-number)
 
-数値かどうかを判定する
+数値かどうかを判定する(use zod)
 
-Determine if it is a number
+Determine if it is a number(use zod)

@@ -12,9 +12,9 @@ npm install @qitt/is-string
 yarn add @qitt/is-string
 ```
 
-文字列かどうかを判定する
+文字列かどうかを判定する(use zod)
 
-Determine if it is a string
+Determine if it is a string(use zod)
 
 ```js
 import { isString, isStrings } from '@qitt/is-string'

@@ -12,9 +12,9 @@ npm install @qitt/is-number
 yarn add @qitt/is-number
 ```
 
-数値かどうかを判定する
+数値かどうかを判定する(use zod)
 
-Determine if it is a number
+Determine if it is a number(use zod)
 
 ```js
 import { isNumber, isNumbers } from '@qitt/is-number'

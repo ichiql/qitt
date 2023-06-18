@@ -1,7 +1,7 @@
 {
   "name": "@qitt/is-string",
   "version": "0.1.7",
-  "description": "determine if it is a number",
+  "description": "determine if it is a string(use zod)",
   "publishConfig": {
     "access": "public"
   },
