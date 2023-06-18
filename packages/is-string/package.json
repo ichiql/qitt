@@ -1,0 +1,49 @@
+{
+  "name": "@qitt/is-string",
+  "version": "0.1.5",
+  "description": "any to number",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichiql/qitt.git",
+    "directory": "packages/is-string"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./distindex.mjs",
+      "require": "./distindex.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "prettier": "@qitt/config/prettier.cjs",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./src",
+    "build": "vite build && tsc -p tsconfig.build.json",
+    "prepublish": "pnpm build"
+  },
+  "keywords": [
+    "qitt",
+    "@qitt",
+    "is-string",
+    "abortis-string",
+    "abortcontroller"
+  ],
+  "author": "Yamashita, Shinichi",
+  "license": "MIT",
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "@qitt/config": "workspace:^",
+    "jest": "^29.5.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.9",
+    "zod": "^3.21.4"
+  }
+}

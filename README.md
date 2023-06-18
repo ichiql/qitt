@@ -45,3 +45,9 @@ Wait for specified number of seconds (milliseconds)
 なにかを文字列化する(bigint supported JSON.stringify)
 
 String something (bigint supported JSON.stringify)
+
+### [is-string](https://npmjs.com/package/@qitt/is-string)
+
+文字列かどうかを判定する
+
+Determine if it is a string

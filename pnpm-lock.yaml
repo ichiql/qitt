@@ -126,7 +126,46 @@ importers:
         specifier: ^4.3.9
         version: 4.3.9(@types/node@20.3.1)
 
+  packages/is-string:
+    devDependencies:
+      '@jest/globals':
+        specifier: ^29.5.0
+        version: 29.5.0
+      '@qitt/config':
+        specifier: workspace:^
+        version: link:../config
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@20.3.1)(ts-node@10.9.1)
+      typescript:
+        specifier: ^5.0.4
+        version: 5.0.4
+      vite:
+        specifier: ^4.3.9
+        version: 4.3.9(@types/node@20.3.1)
+      zod:
+        specifier: ^3.21.4
+        version: 3.21.4
+
   packages/numberize:
+    devDependencies:
+      '@jest/globals':
+        specifier: ^29.5.0
+        version: 29.5.0
+      '@qitt/config':
+        specifier: workspace:^
+        version: link:../config
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@20.3.1)(ts-node@10.9.1)
+      typescript:
+        specifier: ^5.0.4
+        version: 5.0.4
+      vite:
+        specifier: ^4.3.9
+        version: 4.3.9(@types/node@20.3.1)
+
+  packages/stringify:
     devDependencies:
       '@jest/globals':
         specifier: ^29.5.0
@@ -7067,4 +7106,8 @@ packages:
   /yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
+    dev: true
+
+  /zod@3.21.4:
+    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
     dev: true
