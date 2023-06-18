@@ -1,6 +1,6 @@
 {
   "name": "@qitt/config",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "Yamashita, Shinichi",
   "main": "index.js",
   "type": "module",
