@@ -1,26 +1,23 @@
-## @qitt/numberize
+## @qitt/delay
 
 ```shell
-pnpm add @qitt/numberize
+pnpm add @qitt/delay
 ```
 
 ```shell
-npm install @qitt/numberize
+npm install @qitt/delay
 ```
 
 ```shell
-yarn add @qitt/numberize
+yarn add @qitt/delay
 ```
 
-string や bitint を number に変換する。
+指定秒数(ミリ秒数)待つ
 
-Convert string or bitint to number.
+Wait for specified number of seconds (milliseconds)
 
 ```js
-import numberize from '@qitt/numberize'
+import delay from '@qitt/delay'
 
-numberize('123') // 123
-numberize(BigInt(123)) // 123
-numberize('$1,000') // 1000
-numberize('invalid value') // NaN
+await delay({ msec: 1000 }) // wait 1sec
 ```

@@ -1,26 +1,23 @@
-## @qitt/numberize
+## @qitt/error
 
 ```shell
-pnpm add @qitt/numberize
+pnpm add @qitt/error
 ```
 
 ```shell
-npm install @qitt/numberize
+npm install @qitt/error
 ```
 
 ```shell
-yarn add @qitt/numberize
+yarn add @qitt/error
 ```
 
-string や bitint を number に変換する。
+あったらうれしいエラークラス(ほぼ extends Error)
 
-Convert string or bitint to number.
+Error class that would be nice to have (almost extends Error)
 
 ```js
-import numberize from '@qitt/numberize'
+import { AbortError } from '@qitt/error'
 
-numberize('123') // 123
-numberize(BigInt(123)) // 123
-numberize('$1,000') // 1000
-numberize('invalid value') // NaN
+throw new AbortError('message')
 ```
