@@ -2,7 +2,7 @@
   "name": "@qitt/prettier-config",
   "version": "0.1.5",
   "author": "Yamashita, Shinichi",
-  "main": "index.js",
+  "main": "prettier.cjs",
   "type": "module",
   "prettier": "prettier.cjs",
   "publishConfig": {
