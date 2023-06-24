@@ -1,6 +1,6 @@
 {
   "name": "@qitt/is-string",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "determine if it is a string(use zod)",
   "publishConfig": {
     "access": "public"
