@@ -1,6 +1,14 @@
+// logs
 *.log
 npm-debug.log*
 
+// node
 node_modules/
 .turbo/
 dist/
+
+// yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*

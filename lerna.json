@@ -1,9 +1,7 @@
 {
   "$schema": "node_modules/@lerna-lite/cli/schemas/lerna-schema.json",
   "npmClient": "pnpm",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "useWorkspaces": true,
-  "version": "0.1.9"
+  "version": "independent"
 }
