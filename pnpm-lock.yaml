@@ -183,15 +183,6 @@ importers:
         specifier: ^4.3.9
         version: 4.3.9(@types/node@20.3.1)
 
-  packages/prettier-config:
-    devDependencies:
-      prettier:
-        specifier: ^2.2.0
-        version: 2.2.0
-      prettier-plugin-tailwindcss:
-        specifier: ^0.2.0
-        version: 0.2.0(prettier@2.2.0)
-
   packages/stringify:
     devDependencies:
       '@jest/globals':
