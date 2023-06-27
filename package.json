@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
-    "publish": "lerna publish",
+    "publish": "pnpm lerna publish",
     "clean": "pnpm dlx npkill",
     "p:config": "pnpm -F @qitt/config",
     "p:numberize": "pnpm -F @qitt/numberize",
