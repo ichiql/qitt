@@ -57,3 +57,9 @@ Determine if it is a string(use zod)
 数値かどうかを判定する(use zod)
 
 Determine if it is a number(use zod)
+
+### [spin](https://npmjs.com/package/@qitt/spin)
+
+stdout へクルクルスピン出力
+
+Crucial spin output to stdout

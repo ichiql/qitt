@@ -8,13 +8,23 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
+    "publish": "lerna publish",
     "clean": "pnpm dlx npkill",
     "p:config": "pnpm -F @qitt/config",
-    "p:numberize": "pnpm -F @qitt/numberize"
+    "p:numberize": "pnpm -F @qitt/numberize",
+    "p:bigintize": "pnpm -F @qitt/bigintize",
+    "p:delay": "pnpm -F @qitt/delay",
+    "p:error": "pnpm -F @qitt/error",
+    "p:is-number": "pnpm -F @qitt/is-number",
+    "p:is-string": "pnpm -F @qitt/is-string",
+    "p:spin": "pnpm -F @qitt/spin",
+    "p:stringify": "pnpm -F @qitt/stringify"
   },
   "engines": {
     "pnpm": ">=8",
-    "node": ">=18"
+    "node": ">=18",
+    "npm": "use pnpm!",
+    "yarn": "use pnpm!"
   },
   "workspaces": [
     "packages/*"
