@@ -1,4 +1,4 @@
-import rl from 'readline'
+import * as rl from 'node:readline'
 
 const spin_char = ['⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏', '⠋']
 
