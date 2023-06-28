@@ -1,4 +1,5 @@
-import * as rl from 'node:readline'
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const rl = require('readline')
 
 const spin_char = ['⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏', '⠋']
 
