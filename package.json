@@ -8,6 +8,8 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
+    "lint": "turbo lint",
+    "test": "turbo test",
     "clean": "pnpm dlx npkill",
     "p:config": "pnpm -F @qitt/config",
     "p:numberize": "pnpm -F @qitt/numberize",

@@ -17,5 +17,5 @@
     "strictNullChecks": true,
     "noImplicitReturns": true
   },
-  "include": ["_.ts"]
+  "include": ["index.ts"]
 }
