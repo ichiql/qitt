@@ -1,10 +1,10 @@
 {
   "name": "@qitt/prettier",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Yamashita, Shinichi",
-  "main": "index.js",
-  "type": "commonjs",
-  "prettier": "index.js",
+  "main": "index.cjs",
+  "type": "module",
+  "prettier": "index.cjs",
   "publishConfig": {
     "access": "public"
   },
