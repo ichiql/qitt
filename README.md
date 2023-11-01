@@ -10,11 +10,11 @@ I thought, "I want a little bit of that..." and then I found a library of someth
 
 ## パッケージ / packages 📦
 
-### [config](https://npmjs.com/package/@qitt/config)
+### [prettier](https://npmjs.com/package/@qitt/prettier)
 
-eslint, prettier, tsconfigのベース
+prettier コンフィグ
 
-base config file for eslint, prettier, tsconfig
+base config file for prettier
 
 ### [error](https://npmjs.com/package/@qitt/error)
 
@@ -63,3 +63,12 @@ Determine if it is a number(use zod)
 stdout へクルクルスピン出力
 
 Crucial spin output to stdout
+
+## 廃止パッケージ / deprecated packages 📦
+
+### [config](https://npmjs.com/package/@qitt/config)
+
+eslint, prettier, tsconfigのベース
+
+base config file for eslint, prettier, tsconfig
+

@@ -9,7 +9,9 @@
   "scripts": {
     "build": "turbo build",
     "clean": "pnpm dlx npkill",
+    "publish": "pnpm lerna publish",
     "p:config": "pnpm -F @qitt/config",
+    "p:prettier": "pnpm -F @qitt/prettier",
     "p:numberize": "pnpm -F @qitt/numberize",
     "p:bigintize": "pnpm -F @qitt/bigintize",
     "p:delay": "pnpm -F @qitt/delay",

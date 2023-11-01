@@ -1,0 +1,36 @@
+{
+  "name": "@qitt/prettier",
+  "version": "0.1.6",
+  "author": "Yamashita, Shinichi",
+  "main": "index.js",
+  "type": "module",
+  "prettier": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichiql/qitt.git",
+    "directory": "packages/prettier"
+  },
+  "license": "MIT",
+  "description": "config file for prettier",
+  "bugs": {
+    "url": "https://github.com/ichiql/qitt/issues"
+  },
+  "homepage": "https://github.com/ichiql/qitt#readme",
+  "keywords": [
+    "qitt",
+    "@qitt",
+    "prettier"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lint": "echo \"Error: no lint specified\" && exit 0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.0.0",
+    "prettier": "^2.2.0",
+    "prettier-plugin-tailwindcss": "^0.2.0"
+  }
+}
