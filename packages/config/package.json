@@ -2,7 +2,7 @@
   "name": "@qitt/config",
   "version": "0.1.6",
   "author": "Yamashita, Shinichi",
-  "main": "index.js",
+  "main": "index.ts",
   "type": "module",
   "prettier": "prettier.js",
   "publishConfig": {
