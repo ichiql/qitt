@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "Yamashita, Shinichi",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "prettier": "index.js",
   "publishConfig": {
     "access": "public"
