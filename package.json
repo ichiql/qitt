@@ -11,7 +11,7 @@
     "lint": "turbo lint",
     "test": "turbo test",
     "clean": "pnpm dlx npkill",
-    "publish": "pnpm lerna publish",
+    "publish:npm": "pnpm lerna publish",
     "p:config": "pnpm -F @qitt/config",
     "p:prettier": "pnpm -F @qitt/prettier",
     "p:numberize": "pnpm -F @qitt/numberize",
