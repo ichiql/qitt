@@ -1,6 +1,6 @@
 {
   "name": "@qitt/prettier",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Yamashita, Shinichi",
   "main": "index.cjs",
   "type": "module",

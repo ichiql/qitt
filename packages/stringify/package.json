@@ -1,6 +1,6 @@
 {
   "name": "@qitt/stringify",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "bigint supported JSON.stringify",
   "publishConfig": {
     "access": "public"
